@@ -7,6 +7,11 @@ background-color: #FFF;
 line-height: 1.5;
 font-weight: 400;
 letter-spacing: 0.02em;
+width: 1440px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+padding: 0;
 }
 
 .logo {
@@ -50,15 +55,18 @@ letter-spacing: 0.02em;
 
 .hero {
   background-color: #2E2F42;
+  padding: 188px 472px;
+
 }
 
 .hero-name {
   color: #FFF;
   text-align: center;
-  font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
+  width: 496px;
+  text-align: center;
 }
 
 .hero-button {
@@ -68,6 +76,12 @@ letter-spacing: 0.02em;
   letter-spacing: 0.04em;
   cursor: pointer;
   line-height: 1.5;
+  margin: 48px 163px 0 164px;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -91,7 +105,6 @@ letter-spacing: 0.02em;
 .name-section {
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
 }
@@ -119,8 +132,46 @@ letter-spacing: 0.02em;
 
 ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .list-text {
   font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.about-us
+.our-team
+.portfolio {
+  padding: 120px; 156px;
 }
