@@ -12,6 +12,7 @@ width: 1440px;
 
 h1, h2, h3, h4, h5, h6, p {
 padding: 0;
+margin: 0;
 }
 
 .logo {
@@ -23,6 +24,9 @@ padding: 0;
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-decoration: none;
+  margin-right: 76px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .logo-studio-header {
@@ -38,6 +42,8 @@ padding: 0;
 
 .contacts {
   font-style: normal;
+  display: flex;
+  align-items: center;
 }
 
 .contacts-link {
@@ -100,6 +106,7 @@ padding: 0;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .name-section {
@@ -107,6 +114,7 @@ padding: 0;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-team {
@@ -170,8 +178,89 @@ header {
   border-bottom: 1px solid #E7E9FC;
 }
 
-.about-us
-.our-team
-.portfolio {
-  padding: 120px; 156px;
+.section {
+  padding: 120px 156px;
+}
+
+.menu-nav {
+  display: flex;
+}
+
+.menu-list {
+  display: block;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-right: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-info .container {
+  display: flex;
+}
+
+.contacts-list {
+  display: inline-flex;
+  gap: 40px;
+}
+
+.about-us-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.about-us-item {
+  width: 264px;
+}
+
+.team-list-item {
+  display: inline-flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+  width: 264px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 32px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list-item {
+  display: flex;
+  width: 360px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.text-footer {
+  width: 264px;
+  margin-top: 16px;
+}
+
+.end-page .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  padding-right: auto;
 }
