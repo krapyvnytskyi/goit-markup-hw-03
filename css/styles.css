@@ -38,6 +38,8 @@ margin: 0;
   color: #2E2F42;
   font-weight: 500;
   text-decoration: none;
+  padding: 24px 0;
+  display: block;
 }
 
 .contacts {
@@ -201,7 +203,6 @@ header {
 
 .header-info .container {
   display: flex;
-  padding: 24px 0;
 }
 
 .contacts-list {
@@ -273,8 +274,4 @@ img {
 .end-page .container a {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.menu-nav .logo {
-  padding: 24px 0;
 }
