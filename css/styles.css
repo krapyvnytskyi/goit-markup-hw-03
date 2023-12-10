@@ -61,9 +61,6 @@ margin: 0;
 
 .hero  {
   background-color: #2E2F42;
-}
-
-.hero .container {
   padding: 188px 0;
 }
 
@@ -138,6 +135,7 @@ margin: 0;
 .end-page {
   background-color: #2E2F42;
   color: #F4F4FD;
+  padding: 100px 0;
 }
 
 .logo-studio-footer {
@@ -175,8 +173,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -263,18 +260,8 @@ img {
   width: 264px;
 }
 
-.end-page .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .team-list-card {
   padding: 32px 0;
-}
-
-.portfolio .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-card {
@@ -286,4 +273,8 @@ img {
 .end-page .container a {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.menu-nav .logo {
+  padding: 24px 0;
 }
